@@ -4,7 +4,7 @@
 ![Pygame](https://img.shields.io/badge/Pygame-v2.0+-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)
 
-An unbeatable implementation of the classic **Tic-Tac-Toe** game powered by the **Minimax** algorithm optimized with **Alpha-Beta ($\alpha$-$\beta$) Pruning** for real-time decision-making under zero-sum, perfect-information game theory.
+An unbeatable implementation of the classic **Tic-Tac-Toe** game powered by the **Minimax** algorithm optimized with **Alpha-Beta Pruning** for real-time decision-making under zero-sum, perfect-information game theory.
 
 Developed as part of Harvard's **CS50's Introduction to Artificial Intelligence with Python** course.
 
@@ -35,7 +35,7 @@ The Minimax framework assumes both players act rationally with perfect play:
 
 The AI recursively explores all future board states down to terminal conditions, propagating utility values backward up the decision tree.
 
-### 2. Alpha-Beta ($\alpha$-$\beta$) Pruning
+### 2. Alpha-Beta Pruning
 To prevent computing redundant or sub-optimal decision subtrees, two boundary bounds are passed down the recursive search:
 * $\alpha$: The highest score (maximum) player $X$ is guaranteed so far.
 * $\beta$: The lowest score (minimum) player $O$ is guaranteed so far.
