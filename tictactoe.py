@@ -150,9 +150,3 @@ def minimax(board):
                 best_value = valor
                 best_move = action
         return best_move
-
-
-
-if __name__ == "__main__":
-    board = initial_state() #board para testes
-    result(board, (1, 2))
