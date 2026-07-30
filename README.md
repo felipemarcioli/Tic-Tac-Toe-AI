@@ -75,7 +75,7 @@ Ensure you have **Python 3.12** installed on your system.
 2. **Set up a virtual environment (Optional, but recommended):**
     
     ```bash
-    python -m venv venv
+    python3.12 -m venv venv
     source venv/bin/activate  # Linux / macOS
     # or: venv\Scripts\activate  # Windows
     ```
