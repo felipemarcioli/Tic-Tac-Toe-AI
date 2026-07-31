@@ -68,7 +68,7 @@ Ensure you have **Python 3.12** installed on your system.
 
 1. **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/Tic-Tac-Toe-IA.git](https://github.com/your-username/Tic-Tac-Toe-IA.git)
+    git clone [https://github.com/your-username/Tic-Tac-Toe-IA.git](https://github.com/felipemarcioli/Tic-Tac-Toe-IA.git)
     cd Tic-Tac-Toe-IA
     ```
 
